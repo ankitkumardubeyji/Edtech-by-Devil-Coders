@@ -7,20 +7,18 @@ import "bootstrap/js/dist/dropdown";
 import "bootstrap/dist/js/bootstrap";
 import Slideshow from '../components/SlideShow';
 import Feedback from 'react-bootstrap/esm/Feedback';
+import Hero from '../components/Hero';
 //import logo from "./logo.jpeg";
 // import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
     <>
+    <Hero/>
+    <h1 className=' fw-bolder 'style={{fontSize:"50px"}}>OUR GALLARY</h1>
     <Slideshow/>
-    <div className="d-flex me-2">
-      <Feedback/>
-      <Feedback/>
-      <Feedback/>
-      <Feedback/>
-      <Feedback/>
-    </div>
+    
+    
     </>
   );
 }

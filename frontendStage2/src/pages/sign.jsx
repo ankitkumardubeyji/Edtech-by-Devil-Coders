@@ -43,7 +43,7 @@ const  Sign= ()=>{
                 
                 toast.success(response.data.msg,{position :"top-right"});
                 console.log(response);
-                navigate("/")
+                navigate("/login")
               
                 
             })
