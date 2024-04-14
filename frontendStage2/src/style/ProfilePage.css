@@ -1,0 +1,99 @@
+/* Profile Page */
+
+.profile-page {
+    
+    font-family: Arial, sans-serif;
+    background-color: rgb(44, 38, 79);
+  }
+  
+  /* Profile */
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
+  .profile-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  .profile-info h2 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .profile-info p {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  /* Courses */
+  .courses {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card h3,h2 {
+    margin-bottom: 5px;
+     color: #fff;
+  }
+  
+  .course-card p {
+    margin-bottom: 5px;
+  }
+  
+  .course-card i {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .courses a{
+    color: #fff;
+  }
